@@ -1,8 +1,9 @@
-News Sentiment Analysis and Text-to-Speech Application
+**News Sentiment Analysis and Text-to-Speech Application** 
+
 This web application extracts key details from multiple news articles related to a given company, performs sentiment analysis, conducts a comparative analysis, and generates a text-to-speech (TTS) output in Hindi.
 Features
 
-News Extraction: Extracts news articles from various sources using BeautifulSoup
+**News Extraction**: Extracts news articles from various sources using BeautifulSoup
 Sentiment Analysis: Analyzes article content sentiment (positive, negative, neutral)
 Comparative Analysis: Compares sentiment across multiple articles
 Topic Extraction: Identifies key topics from each article
@@ -10,7 +11,8 @@ Hindi Text-to-Speech: Converts summarized content to Hindi speech
 User-friendly Interface: Simple Streamlit web interface
 Downloadable Results: Export analysis as JSON and audio as WAV
 
-Demo
+**Demo**
+
 The application is deployed on Hugging Face Spaces and can be accessed here.
 Setup Instructions
 Prerequisites
@@ -74,16 +76,8 @@ generate_cache_key(company_name): Creates cache keys
 calculate_reading_time(text): Estimates reading time
 truncate_text(text, max_length=100): Truncates text with ellipsis
 
-Project Structure
-Copynews-sentiment-tts/
-├── app.py                # Main Streamlit application
-├── api.py                # API functions
-├── utils.py              # Utility functions
-├── requirements.txt      # Dependencies
-├── README.md             # Documentation
-└── .gitignore            # Git ignore file
-Deployment
-Hugging Face Spaces
+![image](https://github.com/user-attachments/assets/952505d4-d416-4049-90e1-4b18631f80b5)
+
 
 Create a new Space on Hugging Face
 Connect your GitHub repository
